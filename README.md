@@ -1,3 +1,5 @@
+Project for Object Orientated Software Development CSC 232B Class
+
 # RASTER-IMAGES
 The project implements a simple graphical image displayer, using a technique related to the ray-tracing often used for 3D graphics.
 An Image object can be anything with a "colorAt(x, y)" function. The idea is that, for each point in the unit square (for x and y each in the range 0.0 to 1.0) corresponding to a pixel in the Canvas object, the Image is asked what color should be at (x, y). If the Image has nothing to contribute at a given point, it returns the CLEAR (transparent) color. The Canvas object maintains a list of Images, and displays the corresponding colored pixels as needed. The advantage of keeping coordinates within the unit square is that the window can be resized and the Canvas will automatically request more or fewer pixels as needed.
